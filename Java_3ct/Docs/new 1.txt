@@ -1,0 +1,27 @@
+﻿java SE -> Es para trabajar con cosas basicas(aplicaciones de escritorio, apps de consola)
+java EE -> Cosas mas profesionales, elementos web, más enfocado a un sstema 
+
+
+
+
+Crear nueva variable de entorno, en este caso "JAVA_HOME"  Y su valor es la ruta donde esta tu jdk
+este equipo-> propiedades-> Configuración avanzada del sistema(opciones avanzadas), variables de entorno
+
+
+
+en la variable de entorno PATH agregar ";" a lo que ya esta exrito y copiar adicionalmente 
+la ruta: C:\Program Files (x86)\Java\jdk1.8.0_144\bin
+
+
+
+Se tienen dos comandos:
+
+javac -> comando para compilar el archivo .java
+java  -> comando para ejecutar el archivo .class
+
+
+Example:
+Desde el cmd ir a la ruta donde esta nuestro archivo .java y ejecutar
+
+javac HolaMundo.java
+java HolaMundo

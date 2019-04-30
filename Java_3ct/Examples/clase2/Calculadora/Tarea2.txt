@@ -1,0 +1,6 @@
+tarea:
+
+
+Clase Nombre
+int totalValores
+getTotalValoresC(String)
